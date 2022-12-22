@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de produtividade</title>
+</head>
+<body>
+  <header>
+    <h1>Calculadora de produtividade</h1>
+  </header>
+  <section>
+    <label for="">Data</label>
+    <input type="date" name="" id="dia-de-trabalho">
+  <div>
+    <label for="">Quantidade de captações</label>
+    <input type="number" name="captaçao" id="captaçao" min="0">
+  </div>
+  <div>
+    <label for="">Quantidade de entrevistas</label>
+    <input type="number" name="entrevistas" id="entrevistas">
+  </div>
+  <button onclick="salvar()">salvar</button>
+</section>
+
+<section>
+  <div>RESULTADO</div>
+</section>
+
+<table>
+  <thead>
+    <tr>
+      <th>DATA</th>
+      <th>QUANTIDADE DE CAPTAÇÃO</th>
+      <th>QUANTIDADE DE ENTREVISTA</th>
+      <th>RESULTADO</th>
+
+    </tr>
+    <tbody  id="DadosDaTabela"></tbody>
+  </thead>
+  
+  
+</table>
+
+
+<script src="main.js" ></script>
+</body>
+</html>
